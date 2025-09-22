@@ -10,3 +10,6 @@
 - возраст.
 
 Ссылка на датасет: https://www.kaggle.com/datasets/lsind18/ima-database-of-mineral-properties
+
+Скриншот первых строчек датасета:
+<img width="1181" height="268" alt="DDE_скрин 10 колонок" src="https://github.com/user-attachments/assets/a33c3558-dc4a-4b69-9477-6a0c1c6106b9" />
