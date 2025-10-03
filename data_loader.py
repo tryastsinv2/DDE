@@ -18,4 +18,4 @@ raw_data["Oldest Known Age (Ma)"] = raw_data["Oldest Known Age (Ma)"].astype(
     float
 )  # возраст - плавающее число
 
-raw_data.to_csv("updated_data.csv")  # сохраняем в подходящий формат
+raw_data.to_parquet("updated_data.parquet")  # сохраняем в подходящий формат
