@@ -8,9 +8,6 @@ raw_data = pd.read_csv(file_url)  # читаем файл
 print(raw_data.head(10))  # выводим на экран первые 10 строк для проверки
 
 cols_names = list(raw_data.columns.values)  # получаем список названий всех столбцов
-raw_data[cols_names] = raw_data[cols_names].astype(
-    str
-)  # сначала преобразую все стоблцы к строке для удобства
 raw_data["Year First Published"] = raw_data["Year First Published"].astype(
     int
 )  # год публикации - целое число
