@@ -1,3 +1,5 @@
 updated_data.parquet
 api_reader_result.csv
 parse_example_result.csv
+creds.db
+notebooks/prepared_dataset.csv
