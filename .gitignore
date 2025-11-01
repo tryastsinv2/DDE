@@ -3,3 +3,6 @@ api_reader_result.csv
 parse_example_result.csv
 creds.db
 notebooks/prepared_dataset.csv
+.vscode
+notebooks/.ipynb_checkpoints
+data
